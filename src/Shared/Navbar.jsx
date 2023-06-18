@@ -5,7 +5,7 @@ const Navbar = () => {
     const navItems = <>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/jobs">Jobs</Link></li>
-        <li><Link>UpComming Events</Link></li>
+        <li><Link to="/events">UpComming Events</Link></li>
         <li><Link>Contact Us</Link></li>
     </>
     return (

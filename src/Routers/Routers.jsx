@@ -5,6 +5,7 @@ import Home from "../components/pages/Home/Home";
 import Root from "../Layout/Root";
 import Jobs from "../components/pages/Jobs/Jobs";
 import JobsDetails from "../components/pages/Jobs/JobsDetails";
+import UpcomingEvents from "../components/pages/UpcomingEvents/UpcomingEvents";
 
 
 
@@ -26,6 +27,10 @@ export const router = createBrowserRouter([
         path: 'jobDetails/:jobId',
         element: <JobsDetails></JobsDetails>,
         loader: () => fetch('/data.json')
+      },
+      {
+        path: '/events',
+        element: <UpcomingEvents></UpcomingEvents>
       }
     ]
   },
