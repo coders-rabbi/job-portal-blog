@@ -24,7 +24,7 @@ const SingleJobs = ({ items }) => {
                 </div>
             </div>
             <Link to={`/jobDetails/${id}`}>
-                <button className='text-xl bg-gradient-to-r from-bg-tertiary to-bg-extra py-2 px-4 rounded-md font-semibold mt-6'>Show More Details</button>
+                <button className='btn btn-primary mt-6'>Show More Details</button>
             </Link>
         </div>
     );

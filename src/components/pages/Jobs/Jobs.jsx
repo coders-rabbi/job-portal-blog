@@ -5,7 +5,7 @@ import SingleJobs from './SingleJobs';
 
 const Jobs = () => {
     const aLlJobs = useLoaderData();
-    console.log(aLlJobs);
+    // console.log(aLlJobs);
     return (
         <div>
             <div className='flex justify-center bg-[#F2F2F2] py-36'>
